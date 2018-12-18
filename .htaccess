@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/res/ [NC]
+RewriteRule (.*) index.php [L]
