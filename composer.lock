@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dea92b724166fc008835e0aef34f926a",
+    "packages": [
+        {
+            "name": "mora/core",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SandratraRM/mora-core.git",
+                "reference": "4c0b658ccc799fa11d7ee95fcbac1098d312e9f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SandratraRM/mora-core/zipball/4c0b658ccc799fa11d7ee95fcbac1098d312e9f9",
+                "reference": "4c0b658ccc799fa11d7ee95fcbac1098d312e9f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mora\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sandratra Rambeloson",
+                    "email": "sandratrarambelosonm@gmail.com"
+                }
+            ],
+            "description": "The core classes of the Framework mora",
+            "time": "2018-12-18T18:41:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-pdo": "*"
+    },
+    "platform-dev": []
+}
