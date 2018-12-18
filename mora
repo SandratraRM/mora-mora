@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+require_once "./App/Config/Constants.php";
+require_once "./vendor/autoload.php";
+Mora\Core\cli\Mora_cli::exec($argv);

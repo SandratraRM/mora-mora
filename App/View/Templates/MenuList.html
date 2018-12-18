@@ -1,0 +1,21 @@
+<div class="container mt-3">
+    <h2 class="mb-3">Liste</h2>
+
+    <table class="table" $style>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Valeur</th>
+        </tr>
+        </thead>
+        <tbody>
+        $item{{
+        <tr>
+            <td>$id</td>
+            <td>$text</td>
+            <td><a class="btn btn-danger" href="./home/delete/$id">Supprimer</a></td>
+        </tr>}}
+        </tbody>
+    </table>
+    $empty
+</div>

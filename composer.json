@@ -1,0 +1,25 @@
+{
+    "name": "mora/mora",
+    "type": "project",
+    "license": "",
+    "authors": [
+        {
+            "name": "Sandratra Rambeloson",
+            "email": "sandratrarambelosonm@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "ext-pdo": "*",
+        "mora/core":"*"
+
+    },
+    "autoload":  {
+        "psr-4" :{
+            "App\\" : "App/"
+        }
+    },
+    "description": "The startup of mora framework"
+}
