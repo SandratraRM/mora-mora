@@ -8,3 +8,4 @@ define('VIEW',APP . '/View');
 define('CONTROLLER',APP . '/Controller');
 define('MODEL', APP . '/Model');
 define('FIREWALL',APP . '/Firewall');
+define('USE_CLI_COLORS',true);
