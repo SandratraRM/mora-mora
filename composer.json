@@ -13,7 +13,7 @@
     },
     "require": {
         "ext-pdo": "*",
-        "mora/core":"0.4.2"
+        "mora/core":"0.4.3"
 
     },
     "autoload":  {
