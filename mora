@@ -2,4 +2,4 @@
 <?php
 require_once "./App/Config/Constants.php";
 require_once "./vendor/autoload.php";
-Mora\Core\cli\Mora_cli::exec($argv);
+Mora\Core\Cli\Mora_cli::exec($argv);
